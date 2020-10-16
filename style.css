@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+header {
+    padding: 40px 0;
+    background: orange;
+    height: 100vh;
+}
+
+header .navbar {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/*стили для картинки справа: позиционируем*/
+.carousel img {
+    margin-right: 150px;
+}
+
+/*стили для текста слева: позиционируем*/
+.carousel-caption.w-50 {
+    text-align: left;
+    margin-left: -140px;
+    margin-bottom: 80px;
+}
+
+/*стили для заголовка*/
+h2 {
+    font-weight: 700;
+}
+
+/*стили для текста на английском*/
+.carousel-caption.w-50 p {
+    font-size: 20px;
+    color: #313841;
+}
+
+
+/*стили для текста lorem*/
+.lorem {
+    color: #555;
+    font-size: 16px;
+}
+
+/*стили для индикаторов: спускаем вниз */
+.carousel-indicators.positioned {
+    position: absolute;
+    bottom: -70px;
+}
+
+/*стили для индикаторов: делаем круглыми */
+.carousel-indicators.positioned li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+hr{
+	border: 10px solid gray;
+}
+
+.contact-us, footer {
+	background-color: #000;
+}
+
+.own-width{
+	width: 60px !important;
+	height: 60px;
+	border-radius: 15px;
+}
+
+footer ul{
+	list-style: none;
+	color: #fff;
+}
+
+.navbar-light .navbar-toggle{
+	
+}
